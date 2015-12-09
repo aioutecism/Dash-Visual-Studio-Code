@@ -1,0 +1,24 @@
+{
+    "name": "Visual Studio Code",
+    "package": "vscode",
+    "index": "index.html",
+    "selectors": {
+        "#_commands": "Namaspace",
+        "#_extensions": "Namaspace",
+        "#_languages": "Namaspace",
+        "#_window": "Namaspace",
+        "#_workspace": "Namaspace",
+        ".code-item": "Class",
+        "[dash-type=Constructors]": "Constructor",
+        "[dash-type=\"Enumeration members\"]": "Enum",
+        "[dash-type=Events]": "Event",
+        "[dash-type=Functions]": "Function",
+        "[dash-type=Methods]": "Method",
+        "[dash-type=Properties]": "Property",
+        "[dash-type=Static]": "Method",
+        "[dash-type=Variables]": "Variable"
+    },
+    "ignore": [],
+    "icon32x32": "icon.png",
+    "allowJS": false
+}
